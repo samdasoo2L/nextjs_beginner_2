@@ -1,0 +1,18 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.item {
+  background-color: rgba(255, 166, 41, 0.3);
+  box-shadow: 0px 0px 1px rgb(224, 146, 0);
+  border: 1px solid rgb(255, 204, 110);
+  height: 30px;
+  border-radius: 3px;
+  padding: 3px;
+  transition: all 200ms ease-in-out;
+}
+.item:hover {
+  transform: translateY(-5px);
+}

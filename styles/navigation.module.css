@@ -1,0 +1,26 @@
+.nav {
+  background-color: rgb(255, 173, 110);
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  border-radius: 5px;
+  padding: 25px 0px;
+  box-shadow: 1px 1px 2px rgb(255, 129, 33);
+  margin: 1px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  list-style: none;
+  transition: all 0.1s ease-in-out;
+  margin: 0px 20px;
+  font-size: 30px;
+}
+
+.nav ul li:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,17 @@
+.contents {
+  width: 80vw;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 10px rgb(255, 111, 0);
+  padding: 110px 25px 0px 25px;
+}
+.home {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.about div {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 20px;
+}
