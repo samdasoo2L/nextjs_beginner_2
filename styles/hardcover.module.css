@@ -37,6 +37,7 @@
   background-color: orangered;
   color: white;
   padding: 3px;
+  margin-bottom: 3px;
 }
 .bookbuy:hover {
   background-color: orange;
